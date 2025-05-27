@@ -4,8 +4,8 @@ version: 0.0.1
 homepage:
 
 environment:
-  sdk: '>=3.4.0 <4.0.0'
-  flutter: '>=3.3.0'
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.3.0"
 
 dependencies:
   flutter:
@@ -35,7 +35,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.example.im_rpc
+        package: com.vapergift.vshops.im_rpc
         pluginClass: ImRpcPlugin
       ios:
         pluginClass: ImRpcPlugin
