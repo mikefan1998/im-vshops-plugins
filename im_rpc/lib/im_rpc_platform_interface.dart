@@ -26,4 +26,10 @@ abstract class ImRpcPlatform extends PlatformInterface {
   Future<String?> getPlatformVersion() {
     throw UnimplementedError('platformVersion() has not been implemented.');
   }
+
+  static Future<String?> request(
+      String path, String method, Map<String, String> body) {
+    // TODO: implement request
+    throw UnimplementedError();
+  }
 }
